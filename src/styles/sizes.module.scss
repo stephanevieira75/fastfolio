@@ -1,0 +1,109 @@
+/**
+  * Define Sizes variables here
+  */
+:root {
+  --height-sm: calc(var(--height-md) - 8px);
+  --height-md: 44px;
+  --height-lg: calc(var(--height-md) + 8px);
+
+  --width-sm: calc(var(--width-md) - 20px);
+  --width-md: 120px;
+  --width-lg: calc(var(--width-md) * 2);
+
+  --input-width-sm: calc(var(--width-md) - 20px);
+  --input-width-md: 160px;
+  --input-width-lg: calc(var(--width-md) * 2);
+
+  --title-sm: calc(var(--title-md) - 8px);
+  --title-md: 68px;
+  --title-lg: calc(var(--title-md) + 8px);
+
+  --text-sm: calc(var(--text-md) - 4px);
+  --text-md: 18px;
+  --text-lg: calc(var(--text-md) + 4px);
+
+  --progress-sm: calc(var(--progress-md) - 8px);
+  --progress-md: 24px;
+  --progress-lg: calc(var(--progress-md) + 8px);
+}
+
+/**
+  * Define height classnames here
+  */
+.height-sm {
+  height: var(--height-sm);
+}
+
+.height-md {
+  height: var(--height-md);
+}
+
+.height-lg {
+  height: var(--height-lg);
+}
+
+.progress-bar-height-sm {
+  height: var(--progress-sm);
+}
+
+.progress-bar-height-md {
+  height: var(--progress-md);
+}
+
+.progress-bar-height-lg {
+  height: var(--progress-lg);
+}
+
+/**
+  * Define width classnames here
+  */
+.width-sm {
+  width: var(--width-sm);
+}
+
+.width-md {
+  width: var(--width-md);
+}
+
+.width-lg {
+  width: var(--width-lg);
+}
+
+.input-width-sm {
+  width: var(--input-width-sm);
+}
+
+.input-width-md {
+  width: var(--input-width-md);
+}
+
+.input-width-lg {
+  width: var(--input-width-lg);
+}
+
+/**
+  * Define fontsize classnames here
+  */
+.title-font-sm {
+  font-size: var(--title-sm);
+}
+
+.title-font-md {
+  font-size: var(--title-md);
+}
+
+.title-font-lg {
+  font-size: var(--title-lg);
+}
+
+.text-font-sm {
+  font-size: var(--text-sm);
+}
+
+.text-font-md {
+  font-size: var(--text-md);
+}
+
+.text-font-lg {
+  font-size: var(--text-lg);
+}

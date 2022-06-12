@@ -1,0 +1,31 @@
+.input {
+  border: none;
+  background-image: none;
+  box-shadow: var(--box-shadow-md);
+  border-radius: var(--border-radius-md);
+  outline: none;
+  text-decoration: none;
+  padding: 0 8px;
+
+  &:hover:not(&:disabled) {
+    transition: 0.8s;
+    border: 1px solid var(--light-blue);
+  }
+
+  &:focus {
+    transition: 0.8s;
+    border: 1px solid var(--primary);
+    box-shadow: var(--box-shadow-lg);
+  }
+
+  &::placeholder {
+    color: var(--light-gray);
+    opacity: 0.6;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    opacity: 0.5;
+  }
+}

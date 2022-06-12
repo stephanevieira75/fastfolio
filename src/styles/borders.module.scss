@@ -1,0 +1,20 @@
+/**
+  * Define Borders radius variables here
+  */
+:root {
+  --border-radius-sm: calc(var(--border-radius-md) - 4px);
+  --border-radius-md: 8px;
+  --border-radius-lg: calc(var(--border-radius-md) + 8px);
+}
+
+.border-radius-sm {
+  border-radius: var(--border-radius-sm);
+}
+
+.border-radius-md {
+  border-radius: var(--border-radius-md);
+}
+
+.border-radius-lg {
+  border-radius: var(--border-radius-lg);
+}

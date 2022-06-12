@@ -1,0 +1,62 @@
+/**
+  * Define Colors variables here
+  */
+:root {
+  --primary: #3840f7;
+  --secondary: #0d0f38;
+  --warning: #faad14;
+  --success: #18af2c;
+  --error: #ff5154;
+  --white: #fafafa;
+  --dark-black: #010101;
+  --dark-green: #2c9e18;
+  --light-black: #444;
+  --light-blue: #3c2feb;
+  --light--green: #37eb17;
+  --light-grey: #f5f5f7;
+}
+
+/**
+    * Define Colors classNames here
+    */
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.success {
+  background-color: var(--success);
+  color: var(--white);
+}
+
+.error {
+  background-color: var(--error);
+  color: var(--white);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--white);
+}
+
+.dark {
+  background-color: var(--dark-black);
+  color: var(--white);
+}
+
+.light {
+  background-color: var(--light-grey);
+  color: var(--dark-black);
+}
+
+.ghost {
+  background-color: transparent;
+  border: 1px solid var(--light-blue) !important;
+
+  color: var(--light-blue);
+}
