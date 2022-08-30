@@ -1,0 +1,7 @@
+.image {
+  box-shadow: var(--box-shadow-md);
+
+  &.circle {
+    border-radius: 50%;
+  }
+}
